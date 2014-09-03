@@ -4,9 +4,9 @@
 ajax通信用
 
 ##Yahoo.js
-*class Yahoo 基幹
-*class PrefCodeSearch 都道府県
-*class CityCodeSearch 街コード検索
+-class Yahoo 基幹
+-class PrefCodeSearch 都道府県
+-class CityCodeSearch 街コード検索
 
 ###使用方法
 ```
