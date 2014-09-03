@@ -4,11 +4,12 @@
 ajax通信用
 
 ##Yahoo.js
- class Yahoo 基幹
- class PrefCodeSearch 都道府県
- class CityCodeSearch 街コード検索
+*class Yahoo 基幹
+*class PrefCodeSearch 都道府県
+*class CityCodeSearch 街コード検索
 
 ###使用方法
+```
 <select id="pref" name="pref">
 </select>
 <select id="city" name="city">
@@ -28,4 +29,4 @@ var element = document.getElementById( 'pref' );
 element.addEventListener('change', city_code_search.onChange, false);
 
 </script>
-
+```
