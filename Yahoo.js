@@ -54,7 +54,7 @@ var Yahoo = function(){
 
 };
 // 都道府県全検索 Yahoo関連子クラス
-var AddressDirectory = function( name ){
+var PrefCodeSearch = function( name ){
     Yahoo.call( this );
     var self = this;
     self.name = name;
@@ -97,7 +97,7 @@ var CityCodeSearch = function( name ){
         }
 };
 //
-AddressDirectory.prototype  = Object.create( Yahoo.prototype );
+PrefCodeSearch.prototype    = Object.create( Yahoo.prototype );
 CityCodeSearch.prototype    = Object.create( Yahoo.prototype );
 
 
