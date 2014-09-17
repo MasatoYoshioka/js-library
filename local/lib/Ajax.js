@@ -8,5 +8,13 @@ var Ajax = {
                         data : params,
                         jsonp : params.callback
                 });
+        },
+        'json' : function( url, params ){
+            return $.ajax({
+                dataType : 'json',
+                type     : 'GET',
+                url      : url,
+                data     : params
+            });
         }
 };
