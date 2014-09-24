@@ -1,4 +1,5 @@
 document.write( '<script src="/js/local/model/Yahoo.js"></script>' );
+document.write( '<script src="http://www.enjoyxstudy.com/javascript/dateformat/dateformat.js"></script>');
 var Master = function(){
         var self = this;
 
